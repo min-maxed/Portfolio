@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+body{
+	font-family: "Ubuntu Sans",sans-serif;
+	margin: 0;
+	background: #1B2845;
+	
+}
+
+h1,h2,h3{
+	font-family: "Martian Mono", monospace;
+}
+
+h1,h2{
+	font-weight:bold;
+}
+
+a:link{
+	color: #eb4034;
+}
+a:visited{
+	color: #eb4034;
+}
+a:hover{
+	color: red;
+}
+a:active{
+	color: black;
+}
+
+header{
+	text-align: center;
+	color: #65AFFF;
+	padding: 25px;
+}
+
+nav{
+	background-color: #274060;
+	padding: 12px;
+}
+
+nav a{
+	text-decoration:none;
+}
+
+nav a:link{
+	color: #FFFFFF;
+}
+
+nav a:visited{
+	color: #FFFFFF;
+}
+
+nav a:hover{
+	color: #c2c2c2;
+}
+
+nav a:active{
+	color: #8a8a8a;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 8px 0;
+	padding: 0;
+}
+
+nav li{
+	display: inline;
+	padding: 15px;
+}
+
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+.fa {
+	font-size: 4em;
+}
+
+nav .fa{
+	font-size: 1em;
+}
+
+.home-hero{
+	background-image:url(images/header.jpg);
+	height:475px;
+	background-size: cover;
+	background-position: center;
+	color: #042837;
+	padding: 10px 10px 10px 30px;
+}
+
+div.col-sm-4 h3{
+	text-align: center;
+	color: #65AFFF;
+}
+
+img{
+	display: block;
+	margin:0 auto;
+}
+
+blockquote{
+	background-color: #5899E2;
+	border-left: 10px solid #335C81;
+	padding: 30px;
+	color: white;
+}
+
+footer{
+	border-top: black 3px solid;
+	text-align: center;
+	background: #274060;
+	color: #5899E2;
+}
+
+
+
+/* Adjustments for Tablets */
+@media only screen and (max-width: 1024px)
+{
+	h1{
+		font-size: 1.8em;
+	}
+	
+}
+
+/* Adjustments for Phones */
+@media only screen and (max-width: 768px)
+{
+	h1{
+		font-size: 1.5em;
+	}
+}

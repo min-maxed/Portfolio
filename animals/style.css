@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+body{
+	font-family: "Ubuntu Sans",sans-serif;
+	margin: 0;
+	color: #6189A2;
+	background: #111618;
+}
+
+h1,h2,h3,h4,h5{
+	font-family: "Martian Mono", monospace;
+}
+
+a:link{
+	color: #eb4034;
+}
+a:visited{
+	color: #eb4034;
+}
+a:hover{
+	color: red;
+}
+a:active{
+	color: black;
+}
+
+header{
+	text-align: center;
+	color: #CEE4F2;
+	padding: 20px
+}
+
+nav{
+	background-color: #3D4A52;
+	padding: 5px;
+}
+
+nav a{
+	text-decoration:none;
+}
+
+nav a:link{
+	color: #FFFFFF;
+}
+
+nav a:visited{
+	color: #FFFFFF;
+}
+
+nav a:hover{
+	color: #85C7F2;
+}
+
+nav a:active{
+	color: #6189A2;
+}
+
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	margin: 8px 0;
+	padding: 0;
+}
+
+nav li{
+	display: inline;
+	padding: 15px;
+}
+
+
+
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 10px;
+	text-align: left;
+}
+
+div.row{
+	margin: 20px 0px 20px 0;
+}
+
+.fa {
+	font-size: 4em;
+}
+
+.contains-fa{
+	text-align: center;
+}
+
+.hero-image {
+	box-shadow: 5px 5px 5px black;
+	border: 15px solid white;
+}
+
+
+footer{
+	border-top: #111618 45px solid;
+	background: #273035;
+	text-align: center;
+}
+
+footer a:link{
+	color: #85C7F2;
+}
+
+footer a:visited{
+	color: #85C7F2;
+}
+
+footer a:hover{
+	color: #CEE4F2;
+}
+
+footer a:active{
+	color: #6189A2;
+}
+
+
+footer div.container-fluid{
+	max-width: 1000px;
+	text-align: left;
+}
+
+
+footer ul{
+	list-style-type: none;
+	padding: 0;
+}
+footer li{
+	margin: 10px 0;
+}
+
+footer .fa {
+	font-size: 1.1em;
+}
+
+footer h5{
+	color: #CEE4F2;
+}
+
+footer small{
+	display: block;
+	padding: 15px;
+	width: 100%;
+	background: #111618;
+}
+
+.gallery .preview{
+    width: 100%;
+    height: auto;
+	
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto !important;
+    display: block !important;
+	border: 15px solid white;
+	box-shadow: 5px 5px 5px black;
+}
+
+
+
+/* Adjustments for Tablets */
+@media only screen and (max-width: 1024px)
+{
+	h1{
+		font-size: 1.8em;
+	}
+	
+}
+
+/* Adjustments for Phones */
+@media only screen and (max-width: 768px)
+{
+	h1{
+		font-size: 1.5em;
+	}
+}
