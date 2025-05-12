@@ -12,6 +12,10 @@ h1,h2,h3{
 	font-family: "Chivo Mono", monospace;
 }
 
+a{
+	transition: all 0.25s;
+}
+
 a:link{
 	color: rgb(245,123,32);
 }
@@ -97,6 +101,16 @@ nav li{
 	max-width: 80%;
 }
 
+div a img{
+	transition: opacity 0.5s;
+}
+
+div a img:hover{
+	opacity: 80%;
+	border-bottom: rgb(255,140,50) 5px solid;
+	transform: scale(1.03);
+}
+
 
 main{
 	max-width: 800px;
@@ -171,6 +185,7 @@ footer small{
 }
 
 .gallery .gallery-thumbnails img {
+	transition: opacity 1s;
     width: 100px;
     height: 75px;
     margin: 3px 10px 10px 0;
@@ -178,6 +193,8 @@ footer small{
 
 .gallery .gallery-thumbnails img:hover {
     opacity: 0.8;
+	border-bottom: rgb(255,140,50) 3px solid;
+	transform: scale(1.05);
     cursor: pointer;
 }
 
